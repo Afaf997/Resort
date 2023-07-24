@@ -1,0 +1,309 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    }
+ .carousel-item{
+    overflow: hidden;
+ }     
+.carousel-item  img{
+ transition: transform 3s; 
+}
+.carousel-item img:hover{
+        transform: scale(1.3);
+}
+#nav_bar{
+    height:90px;
+    background-color: black;
+    z-index: 1;
+}
+#navbarNavDropdown{
+    position: relative;
+    padding-left: 7px;
+}
+.nav-item{
+    padding-left: 10px;
+
+}
+div {
+    position: relative;
+  }
+  
+ .container-fluid img {
+    width: 150px;
+    height: auto;
+ }
+.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  list-style: none;
+  color: #fff;
+  display: none;
+  position: absolute;
+  background-color: #1b1a1a;
+  min-width: 200px;
+  padding: 13px 18px;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+  margin-top: 25px;  
+}
+#box_type1{
+    width: 51.89vw;
+    height: 100%; 
+    background-color: rgba(0,0,0,0.5);
+    position: relative;
+    margin-top: 120px;
+} 
+@media screen and(max-width:296px) {
+    #box_type1{
+        display: none;
+    }
+}
+#text{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    padding-left: 23.721vw;
+    padding-right: 23.721vw;
+  } 
+#box_type{
+    margin-top: 20px;
+    width: 51.89vw;
+    height: 100%; 
+    background-color: rgba(0,0,0,0.5);
+    position: relative;
+} 
+#text1{
+    font-size: 20px;
+    padding-left: 23.721vw;
+    padding-right: 23.721vw;
+    margin-left: 320px;
+}
+
+ #overlay {
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 2;
+    cursor: pointer;
+    
+  }
+  
+
+#screenbox{
+    position: absolute;
+    width: 100%;
+    height: 0;
+    background-color: rgba(207, 202, 202, 0.5);
+    transition: 1s;
+    z-index: 1;
+
+}
+@media screen and (max-width:416px){
+    #RESERVATIONS{
+        display: none;
+    }
+}
+
+
+#RESERVATIONS{
+    background-color: #d3bf6f;
+    margin-left: 40px;
+     
+   
+}
+#RESERVATIONS:hover{
+    background-color: #ceb85f; 
+}
+
+#icon{
+    font-size: 22px;
+}
+#section-0{
+    display: none;
+
+}
+@media screen and (max-width:1688px){
+   #section-0{
+    display:block ;
+   }
+}
+@media screen and (max-width:1590px){
+    #section-0{
+     display:none ;
+    }
+ }
+ @media screen and (max-width:1177px){
+    #section-1{
+     display:none ;
+    }
+ }
+ @media screen and (max-width:1020px){
+    #section-2{
+     display:none ;
+    }
+ }
+ @media screen and (max-width:992px){
+    #section-3{
+     display:none ;
+    }
+  
+ }
+ @media screen and (max-width:806px){
+    #section-4{
+     display:none ;
+    }
+ 
+ }
+ @media  (max-width:1688px){
+    #RESERVATIONS{
+     display:block;
+    }
+ }
+
+
+
+ .div{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    font-size: 12px;
+    color: white;
+    margin-top: -80px;
+    margin-left: 1020px; 
+    word-spacing: 7px;
+    color: #d3bf6f;  
+
+}  
+
+
+
+ .section1{
+     height: 170px;
+    width: 700px;
+    background-color: rgb(0, 0, 0,.5);
+    position: absolute;
+    margin-left: 230px;
+     margin-top: -360px;
+    display: flex;
+    flex-direction: row; 
+}
+
+#container_paragraph{
+    height:auto;
+    background-color: #d3bf6f;
+    margin-top: -24px;
+
+}
+
+
+#style1 img:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.15); 
+}
+
+.image-image:hover{
+    filter:brightness(.4);
+    position: relative;
+}
+
+
+/* footer */
+.nb-footer {
+background: #222;
+border: 1px solid #d3bf6f;
+ }
+footer.nb-footer .about {
+margin: 0 auto;
+margin-top: 40px;
+max-width: 1170px;
+text-align: center; 
+}
+ .about h4 {
+font-size: 19px;
+color: #d3bf6f;
+margin-top: 30px; 
+}
+
+.social-media ul li a {
+display: inline-block;
+width: 45px;
+height: 45px;
+line-height: 45px;
+border-radius: 50%;
+font-size: 16px;
+color: #d3bf6f;
+ }
+
+
+ .title {
+color:#d3bf6f;
+font-size: 13px;
+ }
+
+
+ul li{
+    list-style: none;
+    display: inline;
+    margin: 5px;
+    color: #d3bf6f;
+}
+
+
+.list-type ul li{
+    text-align: center;
+}
+
+.round_bar{
+    width: 3.706vw;
+    height: 3.706vw;
+    border-radius: 40px;
+    background-color: #d3bf6f;
+    top: 530px;
+    right: 10px;
+    z-index: 1;
+    position: fixed;
+  }
+  .square{
+    color: #fff;
+    font-weight: 500;
+     font-size: 22px;
+      padding:11px 10px 0px 18px;
+     font-size: 22px;
+     position: absolute;
+  }
+
+  @media screen and (max-width:1004px) {
+       .round_bar{
+        display: none;
+       }
+       .square{
+        display:none;
+       }
+  }
+
+  #border-row{
+    justify-content: center;
+    border: 1px solid black;
+  }
+  #about-resort{
+    text-align: center;
+    top: 40px;
+    font-size: 30px;
+  }
+  .main-page{
+    border: 1px solid black;
+    height: auto;
+  }
+ 
